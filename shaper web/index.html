@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaper | Creative CGI Studio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</head>
+<body>
+
+    <div id="loading-screen">
+        <img src="minilogo.png" alt="Shaper Logo" class="loading-logo" />
+    </div>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="logo">
+            <img src="logo.png" alt="Elamine" />
+
+        </nav>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Our Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class ="home" id="home">
+
+        <video autoplay muted loop playsinline class="bg-video">
+            <source src="video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <div class="content">
+            <h1>Welcome to Shaper</h1>
+            <p>We are a creative agency that transforms bold ideas into striking visual experiences. At SHAPER, we blend the power of CGI, animation, and storytelling to craft content that captivates, inspires, and moves audiences. Whether it's a product reveal, a brand story, or a surreal concept, we bring imagination to life — with style, precision, and emotion.</p>
+        </div>
+        
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class ="services">
+        <h2>Our Services</h2>
+
+        <div class="services_content">
+            <div class="mascot">
+                <p>Mascot Creation & animation</p>
+                <model-viewer class="model3D"
+                    src="shapymodel.glb"
+                    alt="Shapy Mascot 3D Model"
+                    autoplay
+                    loop 
+                    animation-name="Key.003Action"
+                    camera-controls
+                    auto-rotate
+                    disable-zoom
+                    shadow-intensity="3"
+                    exposure="2"
+                    environment-image="hdri3.hdr"
+                    camera-orbit="0deg 90deg "
+                    min-camera-orbit="auto 90deg auto"
+                    max-camera-orbit="auto 90deg auto">
+                </model-viewer>
+            </div>
+            <ul>
+            <li><p>Fake Out-of-home (FOOH) ads</p></li>
+            <li><p>3D animation production</p></li>
+            </ul>
+        </div>
+        
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <h2>Our Portfolio</h2>
+        <div class="portfolio-panel">
+            <ul class="portfolio-list">
+                <li class="video-card">
+                    <a href="https://www.instagram.com/reel/C9MxIGeKqCp/?igsh=MTI5b2l5eXVuYmZrNQ==" target="_blank">
+                        <video src="videos/video 1.mp4" autoplay muted loop></video>
+                    </a>
+                    <p>over<br>6.7 MILLIONS<br>VIEWS</p>
+                </li>
+                
+                <li class="video-card">
+                    <a href="https://www.instagram.com/p/DJe3bZTofw2/" target="_blank">
+                    <video src="videos/video 2.mp4" autoplay muted loop></video></a>
+                    <p>over<br>2.8 MILLIONS<br>VIEWS</p>
+                </li>
+                
+                <li class="video-card">
+                    <a href="https://www.instagram.com/reel/DJT2M5vtTEu/" target="_blank">
+                    <video src="videos/video 3.mp4" autoplay muted loop></video></a>
+                    <p>over<br>284 K<br>VIEWS</p>
+                </li>
+
+                <li class="video-card">
+                    <a href="https://www.instagram.com/p/C9aFhEYNkR6/" target="_blank">
+                    <video src="videos/video 4.MOV" autoplay muted loop></video></a>
+                    <p>over<br>3.2 MILLIONS<br>VIEWS</p>
+                </li>
+
+                <li class="video-card">
+                    <a href="https://www.instagram.com/reel/DFu-mfNitod/" target="_blank">
+                    <video src="videos/video 5.mp4" autoplay muted loop></video></a>
+                    <p>over<br>10.2 K<br>VIEWS</p>
+                </li>
+
+                <li class="video-card">
+                    <a href="https://www.instagram.com/reel/DIL3qSmoW_w/" target="_blank">
+                    <video src="videos/video 6.mp4" autoplay muted loop></video></a>
+                    <p>over<br>860 K<br>VIEWS</p>
+                </li>
+
+                <li class="video-card">
+                    <a href="https://www.instagram.com/reel/DLDLhUCIfgN/" target="_blank">
+                    <video src="videos/video 8.mp4" autoplay muted loop></video></a>
+                    <p>over<br>1.6 MILLIONS<br>VIEWS</p>
+                </li>
+
+                <li class="video-card">
+                    <a href="https://www.instagram.com/reel/C4dsE7atgca/" target="_blank">
+                    <video src="videos/video 9.mp4" autoplay muted loop></video></a>
+                    <p>over<br>637 K<br>VIEWS</p>
+                </li>
+
+            </ul>
+        </div>
+
+        <h3>We’ve created many more viral<br>videos with the amazing partners who trust us </h3>
+    </section>
+
+
+    <section class="references">
+  <div class="references-panel">
+    <ul class="references-list">
+      <li><img src="logo/1.png" alt="Client Logo 1"></li>
+      <li><img src="logo/2.png" alt="Client Logo 2"></li>
+      <li><img src="logo/3.png" alt="Client Logo 3"></li>
+      <li><img src="logo/4.png" alt="Client Logo 4"></li>
+      <li><img src="logo/5.png" alt="Client Logo 5"></li>
+      <li><img src="logo/6.png" alt="Client Logo 5"></li>
+      <li><img src="logo/7.png" alt="Client Logo 5"></li>
+      <li><img src="logo/8.png" alt="Client Logo 5"></li>
+      <li><img src="logo/9.png" alt="Client Logo 5"></li>
+      <li><img src="logo/10.png" alt="Client Logo 5"></li>
+      <li><img src="logo/11.png" alt="Client Logo 5"></li>
+      <li><img src="logo/12.png" alt="Client Logo 5"></li>
+      <li><img src="logo/13.png" alt="Client Logo 5"></li>
+      <li><img src="logo/14.png" alt="Client Logo 5"></li>
+      <li><img src="logo/15.png" alt="Client Logo 5"></li>
+      <li><img src="logo/16.png" alt="Client Logo 5"></li>
+      <!-- Add more logos as needed -->
+       <li><img src="logo/1.png" alt="Client Logo 1"></li>
+      <li><img src="logo/2.png" alt="Client Logo 2"></li>
+      <li><img src="logo/3.png" alt="Client Logo 3"></li>
+      <li><img src="logo/4.png" alt="Client Logo 4"></li>
+      <li><img src="logo/5.png" alt="Client Logo 5"></li>
+      <li><img src="logo/6.png" alt="Client Logo 5"></li>
+      <li><img src="logo/7.png" alt="Client Logo 5"></li>
+      <li><img src="logo/8.png" alt="Client Logo 5"></li>
+      <li><img src="logo/9.png" alt="Client Logo 5"></li>
+      <li><img src="logo/10.png" alt="Client Logo 5"></li>
+      <li><img src="logo/11.png" alt="Client Logo 5"></li>
+      <li><img src="logo/12.png" alt="Client Logo 5"></li>
+      <li><img src="logo/13.png" alt="Client Logo 5"></li>
+      <li><img src="logo/14.png" alt="Client Logo 5"></li>
+      <li><img src="logo/15.png" alt="Client Logo 5"></li>
+      <li><img src="logo/16.png" alt="Client Logo 5"></li>
+    </ul>
+  </div>
+</section>
+
+    <section class="contact" id="contact">
+  <div class="content">
+    <h2>Contact Us</h2>
+    <p class="subtitle">Ready to shape your story with us!</p>
+
+    <div class="buttons">
+      <a href="tel:+212612345678" class="btn call">📞 Call Us</a>
+      <a href="mailto:shaper.cgi@gmail.com" class="btn mail">📧 Send Email</a>
+    </div>
+
+    <div class="profile">
+        <a href="https://www.instagram.com/elamine.vfx/" target="_blank">
+            <img src="PROFILE.png" alt="Elamine" />
+        </a>
+      <p><strong>Elamine</strong><br>Founder & Creative Director</p>
+    </div>
+  </div>
+</section>
+
+
+
+<script>
+  window.addEventListener('load', () => {
+    const loader = document.getElementById('loading-screen');
+    loader.classList.add('hidden');
+  });
+</script>
+
+
+
+<script>
+  const panel = document.querySelector('.portfolio-panel');
+  let isDown = false;
+  let startX;
+  let scrollLeft;
+
+  panel.addEventListener('mousedown', (e) => {
+    isDown = true;
+    panel.classList.add('active');
+    startX = e.pageX - panel.offsetLeft;
+    scrollLeft = panel.scrollLeft;
+  });
+
+  panel.addEventListener('mouseleave', () => {
+    isDown = false;
+    panel.classList.remove('active');
+  });
+
+  panel.addEventListener('mouseup', () => {
+    isDown = false;
+    panel.classList.remove('active');
+  });
+
+  panel.addEventListener('mousemove', (e) => {
+    if (!isDown) return;
+    e.preventDefault();
+    const x = e.pageX - panel.offsetLeft;
+    const walk = (x - startX) * 1.5; // scroll speed
+    panel.scrollLeft = scrollLeft - walk;
+  });
+
+  // Mobile support
+  panel.addEventListener('touchstart', (e) => {
+    isDown = true;
+    startX = e.touches[0].pageX - panel.offsetLeft;
+    scrollLeft = panel.scrollLeft;
+  });
+
+  panel.addEventListener('touchend', () => {
+    isDown = false;
+  });
+
+  panel.addEventListener('touchmove', (e) => {
+    if (!isDown) return;
+    const x = e.touches[0].pageX - panel.offsetLeft;
+    const walk = (x - startX) * 1.5;
+    panel.scrollLeft = scrollLeft - walk;
+  });
+</script>
+
+
+
+
+</body>
+</html>
